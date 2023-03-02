@@ -1,0 +1,197 @@
+/* Game */
+
+.row {
+    display: flex;
+}
+
+.section {
+    width: 512px;
+    margin-left: 33%;
+    margin-top: 5%;
+    border: #bdbdbd solid 8px;
+    outline: #f2f2f2 outset 3px;
+    caret-color: transparent;
+}
+
+.center-menu {
+    margin: auto;
+}
+
+.left-menu {
+    margin: auto auto auto 2%;
+}
+
+.right-menu {
+    margin: auto 2% auto auto;
+}
+
+#field {
+    border: #f2f2f2 inset 3px;
+}
+
+#menu {
+    border: #f2f2f2 inset 3px;
+    background-color: #c0c0c0;
+    height: 65px;
+}
+
+#line {
+    background-color: #c0c0c0;
+    height: 8px;
+    weight: 512px;
+}
+/* Sprites */
+
+.minesweeper {
+    background-image: url("../png/minesweeper-sprites_9TPZzv3.png");
+    background-repeat: no-repeat;
+    zoom: 2;
+}
+
+.clock {
+    width: 13px;
+    height: 23px;
+}
+
+.smile {
+    width: 26px;
+    height: 26px;
+}
+
+.field {
+    width: 16px;
+    height: 16px;
+}
+
+/* Time */
+.one {
+    background-position: 0px 0px;
+}
+
+.two {
+    background-position: -14px 0px;
+}
+
+.three {
+    background-position: -28px 0px;
+}
+
+.four {
+    background-position: -42px 0px;
+}
+
+.five {
+    background-position: -56px 0px;
+}
+
+.six {
+    background-position: -70px 0px;
+}
+
+.seven {
+    background-position: -84px 0px;
+}
+
+.eight {
+    background-position: -98px 0px;
+}
+
+.nine {
+    background-position: -112px 0px;
+}
+
+.zero {
+    background-position: -126px 0px;
+}
+
+/* Smile */
+
+.happy {
+    background-position: 0px -24px;
+}
+
+.happy:active {
+    background-position: -27px -24px;
+}
+
+.scare {
+    background-position: -54px -24px;
+}
+
+.cool {
+    background-position: -81px -24px;
+}
+
+.dead {
+    background-position: -108px -24px;
+}
+
+/* Field */
+
+.tile-close {
+    background-position: 0px -51px;
+}
+
+.tile-close:active {
+    background-position: -17px -51px;
+}
+
+.tile-open {
+    background-position: -17px -51px;
+}
+
+.flag {
+    background-position: -34px -51px;
+}
+
+.ask-close {
+    background-position: -51px -51px;
+}
+
+.ask-close:active {
+    background-position: -68px -51px;
+}
+
+.mine-open {
+    background-position: -85px -51px;
+}
+
+.mine-red {
+    background-position: -102px -51px;
+}
+
+.mine-hit {
+    background-position: -119px -51px;
+}
+
+.tile-one {
+    background-position: 0px -68px;
+}
+
+.tile-two {
+    background-position: -17px -68px;
+}
+
+.tile-three {
+    background-position: -34px -68px;
+}
+
+.tile-four {
+    background-position: -51px -68px;
+}
+
+.tile-five {
+    background-position: -68px -68px;
+}
+
+.tile-six {
+    background-position: -85px -68px;
+}
+
+.tile-seven {
+    background-position: -102px -68px;
+}
+
+.tile-eight {
+    background-position: -119px -68px;
+}
