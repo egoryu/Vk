@@ -119,6 +119,13 @@ function draw() {
                 drawFlag(x, y);
                 updateFlags();
 
+                if (countOfMines === 0) {
+                    setSmile(2)
+                    loseFlag = 1;
+                    clearInterval(intervalId);
+                    openAllCloseTile();
+                }
+
                 e.preventDefault();
             }, false);
 
